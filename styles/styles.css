@@ -2,21 +2,36 @@ nav {
   background-color: darkblue;
   padding: 10px;
 }
+
 nav a {
   color: white;
   display: block;
   padding: 20px;
 }
+
 h1 {
   color: darkblue;
 }
-img {
+
+main img {
   width: 150px;
   height: auto;
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
+
 p {
-  padding: 10px;
+  padding: 0;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  margin-top: 10px;
+  border-top: 10px solid#000;
+  text-align: center;
 }
