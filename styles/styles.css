@@ -1,3 +1,7 @@
+:root {
+  --heigh: auto;
+}
+
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -15,7 +19,7 @@ h1 {
 
 main img {
   width: 150px;
-  height: auto;
+  height: var(--height);
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
@@ -27,7 +31,7 @@ p {
 
 aside img {
   width: 200px;
-  height: auto;
+  height: var(--height);
 }
 
 footer {
